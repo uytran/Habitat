@@ -8,8 +8,8 @@
     <ProjectGuid>{461905E3-1D1F-4A75-A4AF-0EFBC0B35F07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Foundation.Accounts.Tests</RootNamespace>
-    <AssemblyName>Sitecore.Foundation.Accounts.Tests</AssemblyName>
+    <RootNamespace>xHelix.Foundation.Accounts.Tests</RootNamespace>
+    <AssemblyName>xHelix.Foundation.Accounts.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -228,9 +228,9 @@
       <Project>{7cc3d72b-4518-4b78-be48-630a263c0f5b}</Project>
       <Name>Sitecore.Foundation.Testing</Name>
     </ProjectReference>
-    <ProjectReference Include="..\code\Sitecore.Foundation.Accounts.csproj">
+    <ProjectReference Include="..\code\xHelix.Foundation.Accounts.csproj">
       <Project>{ce34a3b7-b91a-41ba-8b16-c1e131e1c621}</Project>
-      <Name>Sitecore.Foundation.Accounts</Name>
+      <Name>xHelix.Foundation.Accounts</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

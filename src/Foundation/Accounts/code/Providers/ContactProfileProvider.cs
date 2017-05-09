@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Accounts.Providers
+﻿namespace xHelix.Foundation.Accounts.Providers
 {
     using System;
     using System.Collections.Generic;

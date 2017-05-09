@@ -1,4 +1,4 @@
-namespace Sitecore.Foundation.Accounts.Pipelines
+namespace xHelix.Foundation.Accounts.Pipelines
 {
     using System;
 

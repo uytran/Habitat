@@ -1,6 +1,6 @@
-﻿using ContactProfileProvider = Sitecore.Foundation.Accounts.Providers.ContactProfileProvider;
+﻿using ContactProfileProvider = xHelix.Foundation.Accounts.Providers.ContactProfileProvider;
 
-namespace Sitecore.Foundation.Accounts.Tests.Providers
+namespace xHelix.Foundation.Accounts.Tests.Providers
 {
   using System.Collections.Generic;
   using System.Collections.ObjectModel;
