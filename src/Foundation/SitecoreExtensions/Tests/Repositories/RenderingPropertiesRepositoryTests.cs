@@ -1,8 +1,8 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Tests.Repositories
+﻿namespace xHelix.Foundation.SitecoreExtensions.Tests.Repositories
 {
     using FluentAssertions;
-    using Sitecore.Foundation.SitecoreExtensions.Repositories;
-    using Sitecore.Foundation.Testing.Attributes;
+    using xHelix.Foundation.SitecoreExtensions.Repositories;
+    using xHelix.Foundation.Testing.Attributes;
     using Sitecore.Mvc.Common;
     using Sitecore.Mvc.Presentation;
     using Xunit;

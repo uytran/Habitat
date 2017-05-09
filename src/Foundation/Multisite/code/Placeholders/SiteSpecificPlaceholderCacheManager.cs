@@ -1,8 +1,9 @@
-﻿namespace Sitecore.Foundation.Multisite.Placeholders
+﻿namespace xHelix.Foundation.Multisite.Placeholders
 {
     using System;
     using System.Collections.Concurrent;
     using System.Web;
+    using Sitecore;
     using Sitecore.Caching.Placeholders;
     using Sitecore.Configuration;
     using Sitecore.Data.Items;

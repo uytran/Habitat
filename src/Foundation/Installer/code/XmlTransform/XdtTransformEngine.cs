@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.XmlTransform
+﻿namespace xHelix.Foundation.Installer.XmlTransform
 {
   using Microsoft.Web.XmlTransform;
 

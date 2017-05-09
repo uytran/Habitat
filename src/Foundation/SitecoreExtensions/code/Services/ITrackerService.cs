@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Services
+﻿namespace xHelix.Foundation.SitecoreExtensions.Services
 {
     using Sitecore.Data;
 

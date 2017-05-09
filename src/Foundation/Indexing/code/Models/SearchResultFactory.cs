@@ -1,10 +1,10 @@
-namespace Sitecore.Foundation.Indexing.Models
+namespace xHelix.Foundation.Indexing.Models
 {
     using System.Linq;
     using Sitecore.ContentSearch.SearchTypes;
     using Sitecore.Data.Items;
-    using Sitecore.Foundation.Indexing.Repositories;
-    using Sitecore.Foundation.SitecoreExtensions.Extensions;
+    using xHelix.Foundation.Indexing.Repositories;
+    using xHelix.Foundation.SitecoreExtensions.Extensions;
 
     public class SearchResultFactory
     {

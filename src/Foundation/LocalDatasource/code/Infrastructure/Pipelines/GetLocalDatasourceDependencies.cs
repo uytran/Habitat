@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.LocalDatasource.Infrastructure.Pipelines
+﻿namespace xHelix.Foundation.LocalDatasource.Infrastructure.Pipelines
 {
   using System.Collections.Generic;
   using System.Linq;
@@ -6,7 +6,7 @@
   using Sitecore.ContentSearch.Pipelines.GetDependencies;
   using Sitecore.Data.Items;
   using Sitecore.Diagnostics;
-  using Sitecore.Foundation.LocalDatasource.Extensions;
+  using xHelix.Foundation.LocalDatasource.Extensions;
 
   public class GetLocalDatasourceDependencies : BaseProcessor
   {

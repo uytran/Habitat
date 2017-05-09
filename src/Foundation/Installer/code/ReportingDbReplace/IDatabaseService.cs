@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.ReportingDbReplace
+﻿namespace xHelix.Foundation.Installer.ReportingDbReplace
 {
   public interface IDatabaseService
   {

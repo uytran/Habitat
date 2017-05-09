@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Multisite
+﻿namespace xHelix.Foundation.Multisite
 {
   using Sitecore.Data;
   using Sitecore.Shell.Framework.Commands.Masters;

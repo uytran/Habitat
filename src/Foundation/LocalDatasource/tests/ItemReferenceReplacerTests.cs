@@ -1,11 +1,11 @@
-﻿namespace Sitecore.Foundation.LocalDatasource.Tests
+﻿namespace xHelix.Foundation.LocalDatasource.Tests
 {
   using FluentAssertions;
   using Sitecore.Data.Items;
   using Sitecore.FakeDb;
   using Sitecore.FakeDb.AutoFixture;
-  using Sitecore.Foundation.LocalDatasource.Services;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.LocalDatasource.Services;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class ItemReferenceReplacerTests

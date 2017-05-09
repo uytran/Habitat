@@ -1,11 +1,11 @@
-namespace Sitecore.Foundation.Indexing.Services
+namespace xHelix.Foundation.Indexing.Services
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Sitecore.Foundation.DependencyInjection;
-    using Sitecore.Foundation.Dictionary.Repositories;
-    using Sitecore.Foundation.Indexing.Models;
+    using xHelix.Foundation.DependencyInjection;
+    using xHelix.Foundation.Dictionary.Repositories;
+    using xHelix.Foundation.Indexing.Models;
 
     [Service]
     public class FormatBooleanFacetService

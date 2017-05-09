@@ -1,4 +1,4 @@
-namespace Sitecore.Foundation.Indexing.Infrastructure
+namespace xHelix.Foundation.Indexing.Infrastructure
 {
     using System;
     using System.Linq;
@@ -6,7 +6,7 @@ namespace Sitecore.Foundation.Indexing.Infrastructure
     using Sitecore.ContentSearch.Linq;
     using Sitecore.ContentSearch.Linq.Utilities;
     using Sitecore.ContentSearch.SearchTypes;
-    using Sitecore.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Models;
 
     public static class GetFreeTextPredicateService
     {

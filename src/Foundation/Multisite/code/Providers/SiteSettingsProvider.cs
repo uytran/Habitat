@@ -1,10 +1,10 @@
-﻿namespace Sitecore.Foundation.Multisite.Providers
+﻿namespace xHelix.Foundation.Multisite.Providers
 {
   using System.Linq;
   using Sitecore.Configuration;
   using Sitecore.Data.Items;
-  using Sitecore.Foundation.Multisite.Providers;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.Multisite.Providers;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
   using Sitecore.Web;
 
   public class SiteSettingsProvider : ISiteSettingsProvider

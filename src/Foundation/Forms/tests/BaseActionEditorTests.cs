@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Forms.Tests
+﻿namespace xHelix.Foundation.Forms.Tests
 {
   using System;
   using System.Collections.Specialized;
@@ -6,10 +6,10 @@
   using FluentAssertions;
   using NSubstitute;
   using Ploeh.AutoFixture.Xunit2;
-  using Sitecore.Foundation.Forms.ActionEditors;
-  using Sitecore.Foundation.Forms.Services;
-  using Sitecore.Foundation.Testing;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Forms.ActionEditors;
+  using xHelix.Foundation.Forms.Services;
+  using xHelix.Foundation.Testing;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class BaseActionEditorTests

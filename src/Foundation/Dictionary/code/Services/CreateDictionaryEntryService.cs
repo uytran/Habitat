@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
 
-namespace Sitecore.Foundation.Dictionary.Services
+namespace xHelix.Foundation.Dictionary.Services
 {
   using Sitecore.Data;
   using Sitecore.Data.Items;
-  using Sitecore.Foundation.Dictionary.Models;
+  using xHelix.Foundation.Dictionary.Models;
   using Sitecore.SecurityModel;
 
   internal static class CreateDictionaryEntryService

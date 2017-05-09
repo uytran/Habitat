@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.Installer.MongoRestore
+﻿namespace xHelix.Foundation.Installer.MongoRestore
 {
   using System.Collections.Generic;
   using System.IO;
   using System.Linq;
-  using Sitecore.Foundation.Installer.XmlTransform;
+  using xHelix.Foundation.Installer.XmlTransform;
 
   public class MongoPathsProvider : IMongoPathsProvider
   {

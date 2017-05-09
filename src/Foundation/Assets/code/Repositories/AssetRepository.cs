@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Assets.Repositories
+﻿namespace xHelix.Foundation.Assets.Repositories
 {
     using System;
     using System.Collections.Generic;
@@ -6,14 +6,14 @@
     using System.Xml;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
-    using Sitecore.Foundation.Assets.Models;
+    using xHelix.Foundation.Assets.Models;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Xml;
 
     /// <summary>A Repository for all assets required by renderings</summary>
     public class AssetRepository
     {
-        private static readonly AssetRequirementCache _cache = new AssetRequirementCache(StringUtil.ParseSizeString("10MB"));
+        private static readonly AssetRequirementCache _cache = new AssetRequirementCache(Sitecore.StringUtil.ParseSizeString("10MB"));
 
         [ThreadStatic]
         private static AssetRepository _current;

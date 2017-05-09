@@ -4,13 +4,13 @@
 
 #endregion
 
-namespace Sitecore.Foundation.Indexing.Infrastructure.Fields
+namespace xHelix.Foundation.Indexing.Infrastructure.Fields
 {
   using System.Linq;
   using Sitecore.ContentSearch;
   using Sitecore.ContentSearch.ComputedFields;
-  using Sitecore.Foundation.Indexing.Repositories;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.Indexing.Repositories;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
 
   public class HasSearchResultFormatterComputedField : IComputedIndexField
   {

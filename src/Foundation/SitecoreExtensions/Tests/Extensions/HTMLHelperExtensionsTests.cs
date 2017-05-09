@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sitecore.Foundation.SitecoreExtensions.Tests.HtmlHelper
+namespace xHelix.Foundation.SitecoreExtensions.Tests.HtmlHelper
 {
   using System.Web.Mvc;
   using System.Xml;
@@ -13,9 +13,9 @@ namespace Sitecore.Foundation.SitecoreExtensions.Tests.HtmlHelper
   using FluentAssertions.Xml;
   using Sitecore.Extensions;
   using Sitecore.Extensions.XElementExtensions;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
-  using Sitecore.Foundation.SitecoreExtensions.Repositories;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.SitecoreExtensions.Repositories;
+  using xHelix.Foundation.Testing.Attributes;
   using Sitecore.Mvc;
   using Sitecore.Mvc.Common;
   using Sitecore.Mvc.Extensions;

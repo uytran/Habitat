@@ -44,7 +44,7 @@
         public IContactPicture Picture => this.GetFacet<IContactPicture>("Picture");
         public IContactPreferences Preferences => this.GetFacet<IContactPreferences>("Preferences");
 
-        public Analytics.Tracking.KeyBehaviorCache KeyBehaviorCache
+        public Sitecore.Analytics.Tracking.KeyBehaviorCache KeyBehaviorCache
         {
             get
             {

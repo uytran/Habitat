@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.Tests.MongoRestore
+﻿namespace xHelix.Foundation.Installer.Tests.MongoRestore
 {
   using System;
   using System.Collections.Generic;
@@ -9,8 +9,8 @@
   using log4net.spi;
   using NSubstitute;
   using Ploeh.AutoFixture.Xunit2;
-  using Sitecore.Foundation.Installer.MongoRestore;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Installer.MongoRestore;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class MongoRestoreServiceTests

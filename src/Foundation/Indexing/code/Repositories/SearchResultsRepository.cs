@@ -1,13 +1,13 @@
-﻿namespace Sitecore.Foundation.Indexing.Repositories
+﻿namespace xHelix.Foundation.Indexing.Repositories
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Sitecore.ContentSearch.Linq;
     using Sitecore.ContentSearch.SearchTypes;
-    using Sitecore.Foundation.DependencyInjection;
-    using Sitecore.Foundation.Indexing.Models;
-    using Sitecore.Foundation.Indexing.Services;
+    using xHelix.Foundation.DependencyInjection;
+    using xHelix.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Services;
     using Sitecore.Mvc.Common;
 
     [Service]

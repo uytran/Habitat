@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Foundation.Installer</RootNamespace>
-    <AssemblyName>Sitecore.Foundation.Installer</AssemblyName>
+    <RootNamespace>xHelix.Foundation.Installer</RootNamespace>
+    <AssemblyName>xHelix.Foundation.Installer</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -229,13 +229,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\..\Assets\code\Sitecore.Foundation.Assets.csproj">
+    <ProjectReference Include="..\..\Assets\code\xHelix.Foundation.Assets.csproj">
       <Project>{7E46FF93-EE05-412C-AC47-2A59A13DA73C}</Project>
-      <Name>Sitecore.Foundation.Assets</Name>
+      <Name>xHelix.Foundation.Assets</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">
+    <ProjectReference Include="..\..\SitecoreExtensions\code\xHelix.Foundation.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Sitecore.Foundation.SitecoreExtensions</Name>
+      <Name>xHelix.Foundation.SitecoreExtensions</Name>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
@@ -293,4 +293,3 @@
   <Target Name="AfterBuild">
   </Target> -->
 </Project>
-

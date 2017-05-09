@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Forms.Services
+﻿namespace xHelix.Foundation.Forms.Services
 {
   public interface ISheerService
   {

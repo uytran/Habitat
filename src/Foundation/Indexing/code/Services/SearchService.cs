@@ -1,10 +1,11 @@
-﻿namespace Sitecore.Foundation.Indexing.Services
+﻿namespace xHelix.Foundation.Indexing.Services
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
     using System.Web.Mvc;
+    using Sitecore;
     using Sitecore.ContentSearch;
     using Sitecore.ContentSearch.Linq;
     using Sitecore.ContentSearch.Linq.Utilities;
@@ -12,8 +13,8 @@
     using Sitecore.ContentSearch.Utilities;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
-    using Sitecore.Foundation.Indexing.Models;
-    using Sitecore.Foundation.Indexing.Repositories;
+    using xHelix.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Repositories;
     using Sitecore.Mvc.Common;
 
     public class SearchService

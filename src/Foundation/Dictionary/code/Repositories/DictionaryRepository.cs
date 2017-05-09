@@ -1,9 +1,9 @@
-namespace Sitecore.Foundation.Dictionary.Repositories
+namespace xHelix.Foundation.Dictionary.Repositories
 {
   using System;
   using System.Configuration;
   using Sitecore.Data.Items;
-  using Sitecore.Foundation.Dictionary.Models;
+  using xHelix.Foundation.Dictionary.Models;
   using Sitecore.Sites;
 
   public class DictionaryRepository : IDictionaryRepository

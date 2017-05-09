@@ -1,4 +1,4 @@
-namespace Sitecore.Foundation.Theming.Extensions
+namespace xHelix.Foundation.Theming.Extensions
 {
   public class CarouselOptions
   {

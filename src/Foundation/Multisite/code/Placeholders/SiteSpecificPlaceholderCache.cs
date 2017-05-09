@@ -1,4 +1,4 @@
-namespace Sitecore.Foundation.Multisite.Placeholders
+namespace xHelix.Foundation.Multisite.Placeholders
 {
     using Sitecore.Caching.Placeholders;
     using Sitecore.Configuration;

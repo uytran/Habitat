@@ -109,9 +109,9 @@
     <Compile Include="Pipelines\PipelineService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DependencyInjection\code\Sitecore.Foundation.DependencyInjection.csproj">
+    <ProjectReference Include="..\..\DependencyInjection\code\xHelix.Foundation.DependencyInjection.csproj">
       <Project>{366148B7-2392-4F42-80D6-786B7A3682AE}</Project>
-      <Name>Sitecore.Foundation.DependencyInjection</Name>
+      <Name>xHelix.Foundation.DependencyInjection</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

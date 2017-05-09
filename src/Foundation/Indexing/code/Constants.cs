@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Indexing
+﻿namespace xHelix.Foundation.Indexing
 {
     internal struct Constants
     {

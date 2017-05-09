@@ -2,7 +2,7 @@
 
 #endregion
 
-namespace Sitecore.Foundation.Indexing.Repositories
+namespace xHelix.Foundation.Indexing.Repositories
 {
     using System.Collections.Generic;
     using System.Configuration;
@@ -10,7 +10,7 @@ namespace Sitecore.Foundation.Indexing.Repositories
     using System.Linq;
     using Sitecore.Configuration;
     using Sitecore.Configuration.Providers;
-    using Sitecore.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Models;
 
     internal static class IndexingProviderRepository
     {

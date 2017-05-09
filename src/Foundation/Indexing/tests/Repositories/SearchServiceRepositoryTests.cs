@@ -1,11 +1,11 @@
-﻿namespace Sitecore.Foundation.Indexing.Tests
+﻿namespace xHelix.Foundation.Indexing.Tests
 {
   using FluentAssertions;
   using Ploeh.AutoFixture.Xunit2;
-  using Sitecore.Foundation.Indexing.Models;
-  using Sitecore.Foundation.Indexing.Repositories;
-  using Sitecore.Foundation.Indexing.Services;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Indexing.Models;
+  using xHelix.Foundation.Indexing.Repositories;
+  using xHelix.Foundation.Indexing.Services;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class SearchServiceRepositoryTests

@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.Installer.Tests.MongoRestore
+﻿namespace xHelix.Foundation.Installer.Tests.MongoRestore
 {
   using NSubstitute;
   using Ploeh.AutoFixture.Xunit2;
-  using Sitecore.Foundation.Installer.MongoRestore;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Installer.MongoRestore;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class MongoRestoreProcessorTests

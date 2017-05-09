@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Extensions
+﻿namespace xHelix.Foundation.SitecoreExtensions.Extensions
 {
   using System;
   using Sitecore;

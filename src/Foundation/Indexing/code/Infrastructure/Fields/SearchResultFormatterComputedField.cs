@@ -2,7 +2,7 @@
 
 #endregion
 
-namespace Sitecore.Foundation.Indexing.Infrastructure.Fields
+namespace xHelix.Foundation.Indexing.Infrastructure.Fields
 {
     using System;
     using System.Collections.Generic;
@@ -14,10 +14,10 @@ namespace Sitecore.Foundation.Indexing.Infrastructure.Fields
     using Sitecore.ContentSearch.Linq.Methods;
     using Sitecore.ContentSearch.Pipelines.GetFacets;
     using Sitecore.ContentSearch.Pipelines.ProcessFacets;
-    using Sitecore.Foundation.Indexing.Infrastructure.Providers;
-    using Sitecore.Foundation.Indexing.Models;
-    using Sitecore.Foundation.Indexing.Repositories;
-    using Sitecore.Foundation.SitecoreExtensions.Extensions;
+    using xHelix.Foundation.Indexing.Infrastructure.Providers;
+    using xHelix.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Repositories;
+    using xHelix.Foundation.SitecoreExtensions.Extensions;
 
     public class SearchResultFormatterComputedField : IVirtualFieldProcessor, IComputedIndexField
     {

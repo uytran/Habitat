@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Multisite.Tests
+﻿namespace xHelix.Foundation.Multisite.Tests
 {
   using System;
   using System.Collections.Generic;
@@ -10,8 +10,8 @@
   using Sitecore.Data;
   using Sitecore.FakeDb;
   using Sitecore.FakeDb.Sites;
-  using Sitecore.Foundation.Multisite.Providers;
-  using Sitecore.Foundation.Multisite.Tests.Extensions;
+  using xHelix.Foundation.Multisite.Providers;
+  using xHelix.Foundation.Multisite.Tests.Extensions;
   using Sitecore.Sites;
   using Sitecore.Web;
   using Xunit;

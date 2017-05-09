@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Multisite.Commands
+﻿namespace xHelix.Foundation.Multisite.Commands
 {
   using Sitecore.Configuration;
   using Sitecore.Sites;
@@ -9,7 +9,7 @@
   /// Overrides default Shell.Applications.WebEdit.Commands.OpenExperienceEditor
   /// Uses domain to resolve site for editing
   /// </summary>
-  public class OpenExperienceEditor : Shell.Applications.WebEdit.Commands.OpenExperienceEditor
+  public class OpenExperienceEditor : Sitecore.Shell.Applications.WebEdit.Commands.OpenExperienceEditor
   {
     private const string DefaultSiteSetting = "Preview.DefaultSite";
 

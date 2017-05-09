@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Repositories
+﻿namespace xHelix.Foundation.SitecoreExtensions.Repositories
 {
     using Sitecore.Mvc.Presentation;
 

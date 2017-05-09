@@ -1,12 +1,12 @@
-﻿namespace Sitecore.Foundation.Forms.Tests
+﻿namespace xHelix.Foundation.Forms.Tests
 {
   using NSubstitute;
   using Ploeh.AutoFixture.Xunit2;
   using Sitecore.Data;
   using Sitecore.FakeDb;
-  using Sitecore.Foundation.Forms.SaveActions;
-  using Sitecore.Foundation.SitecoreExtensions.Services;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Forms.SaveActions;
+  using xHelix.Foundation.SitecoreExtensions.Services;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class RegisterOutcomeTests

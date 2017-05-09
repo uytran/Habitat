@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Indexing
+﻿namespace xHelix.Foundation.Indexing
 {
   using Sitecore.Data;
 

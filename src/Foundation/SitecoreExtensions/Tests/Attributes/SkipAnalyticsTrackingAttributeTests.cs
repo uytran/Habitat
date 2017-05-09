@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Tests.Attributes
+﻿namespace xHelix.Foundation.SitecoreExtensions.Tests.Attributes
 {
   using System;
   using System.Collections.Specialized;
@@ -7,7 +7,7 @@
   using NSubstitute;
   using Sitecore.Analytics;
   using Sitecore.Analytics.Tracking;
-  using Sitecore.Foundation.SitecoreExtensions.Attributes;
+  using xHelix.Foundation.SitecoreExtensions.Attributes;
   using Sitecore.Mvc.Common;
   using Sitecore.Mvc.Presentation;
   using Xunit;

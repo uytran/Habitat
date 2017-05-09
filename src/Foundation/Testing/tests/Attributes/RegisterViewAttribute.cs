@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Testing.Attributes
+﻿namespace xHelix.Foundation.Testing.Attributes
 {
   using System;
 

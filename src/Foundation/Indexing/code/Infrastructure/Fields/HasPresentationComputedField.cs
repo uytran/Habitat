@@ -4,12 +4,12 @@
 
 #endregion
 
-namespace Sitecore.Foundation.Indexing.Infrastructure.Fields
+namespace xHelix.Foundation.Indexing.Infrastructure.Fields
 {
   using Sitecore.ContentSearch;
   using Sitecore.ContentSearch.ComputedFields;
   using Sitecore.Data.Items;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
 
     public class HasPresentationComputedField : IComputedIndexField
   {

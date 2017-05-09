@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sitecore.Foundation.DependencyInjection
+namespace xHelix.Foundation.DependencyInjection
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class ServiceAttribute : Attribute

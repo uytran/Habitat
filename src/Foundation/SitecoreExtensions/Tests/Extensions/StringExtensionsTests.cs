@@ -1,7 +1,7 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Tests.Extensions
+﻿namespace xHelix.Foundation.SitecoreExtensions.Tests.Extensions
 {
   using FluentAssertions;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
   using Xunit;
 
   public class StringExtensionsTests

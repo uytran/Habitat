@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.Assets.Pipelines.GetPageRendering
+﻿namespace xHelix.Foundation.Assets.Pipelines.GetPageRendering
 {
     using System.Collections.Generic;
     using System.Xml;
-    using Sitecore.Foundation.Assets.Models;
-    using Sitecore.Foundation.Assets.Repositories;
+    using xHelix.Foundation.Assets.Models;
+    using xHelix.Foundation.Assets.Repositories;
     using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 
     public class AddAssets : GetPageRenderingProcessor

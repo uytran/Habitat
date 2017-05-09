@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Testing
+﻿namespace xHelix.Foundation.Testing
 {
   using System.Collections.Generic;
   using System.IO;

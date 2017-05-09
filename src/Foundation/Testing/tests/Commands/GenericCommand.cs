@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Testing.Commands
+﻿namespace xHelix.Foundation.Testing.Commands
 {
   using Ploeh.AutoFixture.Kernel;
 

@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions
+﻿namespace xHelix.Foundation.SitecoreExtensions
 {
   public struct Constants
   {

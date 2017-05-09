@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.Tests
+﻿namespace xHelix.Foundation.Installer.Tests
 {
   using System;
   using System.Collections.Generic;
@@ -9,7 +9,7 @@
   using FluentAssertions;
   using NSubstitute;
   using Ploeh.AutoFixture.Xunit2;
-  using Sitecore.Foundation.Installer.XmlTransform;
+  using xHelix.Foundation.Installer.XmlTransform;
   using Xunit;
 
   public class TransformsProviderTests

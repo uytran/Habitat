@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Extensions
+﻿namespace xHelix.Foundation.SitecoreExtensions.Extensions
 {
   using System;
   using Sitecore.Mvc.Presentation;
@@ -24,9 +24,9 @@
       return !int.TryParse(parameter, out returnValue) ? defaultValue : returnValue;
     }
 
-    public static bool GetUseStaticPlaceholderNames([NotNull] this Rendering rendering)
+    public static bool GetUseStaticPlaceholderNames([Sitecore.NotNull] this Rendering rendering)
     {
-      return MainUtil.GetBool(rendering.Parameters[Constants.DynamicPlaceholdersLayoutParameters.UseStaticPlaceholderNames], false);
+      return Sitecore.MainUtil.GetBool(rendering.Parameters[Constants.DynamicPlaceholdersLayoutParameters.UseStaticPlaceholderNames], false);
     }
   }
 }

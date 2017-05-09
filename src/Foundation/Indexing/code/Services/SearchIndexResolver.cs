@@ -1,7 +1,7 @@
-﻿namespace Sitecore.Foundation.Indexing.Services
+﻿namespace xHelix.Foundation.Indexing.Services
 {
     using Sitecore.ContentSearch;
-    using Sitecore.Foundation.DependencyInjection;
+    using xHelix.Foundation.DependencyInjection;
 
     [Service]
     public class SearchIndexResolver

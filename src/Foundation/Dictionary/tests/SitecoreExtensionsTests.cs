@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Dictionary.Tests
+﻿namespace xHelix.Foundation.Dictionary.Tests
 {
   using System.Web;
   using FluentAssertions;
@@ -6,10 +6,10 @@
   using Ploeh.AutoFixture.AutoNSubstitute;
   using Sitecore.Data;
   using Sitecore.Data.Items;
-  using Sitecore.Foundation.Dictionary.Extensions;
-  using Sitecore.Foundation.Dictionary.Repositories;
-  using Sitecore.Foundation.Testing;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Dictionary.Extensions;
+  using xHelix.Foundation.Dictionary.Repositories;
+  using xHelix.Foundation.Testing;
+  using xHelix.Foundation.Testing.Attributes;
   using Sitecore.Mvc.Helpers;
   using Xunit;
 

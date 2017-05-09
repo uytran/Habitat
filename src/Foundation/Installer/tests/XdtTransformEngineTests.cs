@@ -1,10 +1,10 @@
-﻿namespace Sitecore.Foundation.Installer.Tests
+﻿namespace xHelix.Foundation.Installer.Tests
 {
   using System.IO;
   using System.Linq;
   using System.Xml.Linq;
   using FluentAssertions;
-  using Sitecore.Foundation.Installer.XmlTransform;
+  using xHelix.Foundation.Installer.XmlTransform;
   using Xunit;
 
   public class XdtTransformEngineTests

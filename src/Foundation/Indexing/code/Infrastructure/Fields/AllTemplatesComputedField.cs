@@ -4,7 +4,7 @@
 
 #endregion
 
-namespace Sitecore.Foundation.Indexing.Infrastructure.Fields
+namespace xHelix.Foundation.Indexing.Infrastructure.Fields
 {
   using System.Collections.Generic;
   using Sitecore;

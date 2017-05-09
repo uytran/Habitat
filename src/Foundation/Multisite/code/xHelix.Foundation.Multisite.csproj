@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{323CA7A6-6ABB-4652-ABE2-75DAB139CBC0}</ProjectGuid>
+    <ProjectGuid>{CFA2AE87-7F8D-4CA6-BB72-B16380190DB7}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Foundation.LocalDatasource</RootNamespace>
-    <AssemblyName>Sitecore.Foundation.LocalDatasource</AssemblyName>
+    <RootNamespace>xHelix.Foundation.Multisite</RootNamespace>
+    <AssemblyName>xHelix.Foundation.Multisite</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -24,7 +24,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,6 +33,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -49,32 +49,35 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Buckets, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Buckets.NoReferences.8.2.161115\lib\NET452\Sitecore.Buckets.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.ContentSearch.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
+    <Reference Include="Sitecore.ExperienceEditor, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.ExperienceEditor.NoReferences.8.2.161115\lib\NET452\Sitecore.ExperienceEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.8.2.161115\lib\NET452\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -99,51 +102,62 @@
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\ItemExtensions.cs" />
-    <Compile Include="Infrastructure\Events\UpdateLocalDatasourceReferences.cs" />
-    <Compile Include="Infrastructure\Indexing\LocalDatasourceIndexContentProvider.cs" />
-    <Compile Include="Infrastructure\Indexing\LocalDatasourceContentField.cs" />
-    <Compile Include="Services\ChangeLocalDatasourceReferencesService.cs" />
-    <Compile Include="Infrastructure\Pipelines\GetLocalDatasourceDependencies.cs" />
-    <Compile Include="Infrastructure\Pipelines\GetLocalDatasourceLocation.cs" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Multisite.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore\shell\Applications\Dialogs\Multisite\DatasourceSettings.xml" />
+    <Content Include="packages.config" />
+    <None Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CreateRenderingSettings.cs" />
+    <Compile Include="Commands\OpenExperienceEditor.cs" />
+    <Compile Include="Dialogs\DatasourceSettingsPage.cs" />
+    <Compile Include="Pipelines\ResolveContentLanguage.cs" />
+    <Compile Include="Placeholders\SiteSpecificPlaceholderCache.cs" />
+    <Compile Include="Placeholders\SiteSpecificPlaceholderCacheManager.cs" />
+    <Compile Include="Providers\DatasourceConfigurationService.cs" />
+    <Compile Include="Providers\ISiteSettingsProvider.cs" />
+    <Compile Include="Pipelines\GetDatasourceLocationAndTemplateFromSite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ItemReferenceReplacer.cs" />
-    <Compile Include="Settings.cs" />
+    <Compile Include="Providers\IDatasourceProvider.cs" />
+    <Compile Include="Providers\ISiteDefinitionsProvider.cs" />
+    <Compile Include="Providers\DatasourceProvider.cs" />
+    <Compile Include="Providers\SiteDefinitionsProvider.cs" />
+    <Compile Include="Providers\SiteSettingsProvider.cs" />
+    <Compile Include="ServicesConfigurator.cs" />
+    <Compile Include="SiteContext.cs" />
+    <Compile Include="SiteDefinition.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Foundation\Foundation.LocalDatasource.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Config\Include\Foundation\Foundation.LocalDatasource.Serialization.config" />
-    <Content Include="packages.config" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Multisite.Serialization.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <None Include="web.config" />
-    <None Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Indexing\code\Sitecore.Foundation.Indexing.csproj">
-      <Project>{80213F24-577F-4F0B-A3B8-62485EA4D2F3}</Project>
-      <Name>Sitecore.Foundation.Indexing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">
-      <Project>{B535703F-8D07-4F23-A533-2974BB4CC7B1}</Project>
-      <Name>Sitecore.Foundation.SitecoreExtensions</Name>
+    <ProjectReference Include="..\..\SitecoreExtensions\code\xHelix.Foundation.SitecoreExtensions.csproj">
+      <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
+      <Name>xHelix.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -157,9 +171,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55782</DevelopmentServerPort>
+          <DevelopmentServerPort>52792</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55782/</IISUrl>
+          <IISUrl>http://localhost:52792/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -177,4 +191,3 @@
   </Target>
   -->
 </Project>
-

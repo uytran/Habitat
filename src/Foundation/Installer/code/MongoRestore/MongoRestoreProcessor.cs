@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.MongoRestore
+﻿namespace xHelix.Foundation.Installer.MongoRestore
 {
   using System.Linq;
   using System.Threading;

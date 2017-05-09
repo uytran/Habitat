@@ -1,4 +1,4 @@
-namespace Sitecore.Foundation.Indexing.Models
+namespace xHelix.Foundation.Indexing.Models
 {
   using System;
   using System.Collections.Generic;

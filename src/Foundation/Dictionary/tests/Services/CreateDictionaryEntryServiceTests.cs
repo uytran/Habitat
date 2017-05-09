@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Dictionary.Tests.Services
+﻿namespace xHelix.Foundation.Dictionary.Tests.Services
 {
   using System.Collections.Generic;
   using System.Linq;
@@ -7,9 +7,9 @@
   using Sitecore.Data.Items;
   using Sitecore.FakeDb;
   using Sitecore.FakeDb.AutoFixture;
-  using Sitecore.Foundation.Dictionary.Models;
-  using Sitecore.Foundation.Dictionary.Services;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Dictionary.Models;
+  using xHelix.Foundation.Dictionary.Services;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class CreateDictionaryEntryServiceTests

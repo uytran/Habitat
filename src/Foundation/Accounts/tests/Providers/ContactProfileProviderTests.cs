@@ -12,7 +12,7 @@ namespace xHelix.Foundation.Accounts.Tests.Providers
   using Sitecore.Analytics.Model.Entities;
   using Sitecore.Analytics.Model.Framework;
   using Sitecore.Analytics.Tracking;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class ContactProfileProviderTests

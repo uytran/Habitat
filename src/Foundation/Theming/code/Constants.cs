@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Theming
+﻿namespace xHelix.Foundation.Theming
 {
   public struct Constants
   {

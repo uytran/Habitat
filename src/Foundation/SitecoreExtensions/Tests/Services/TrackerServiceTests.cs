@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Tests.Services
+﻿namespace xHelix.Foundation.SitecoreExtensions.Tests.Services
 {
   using System;
   using System.Collections.Generic;
@@ -13,8 +13,8 @@
   using Sitecore.Data;
   using Sitecore.Data.Items;
   using Sitecore.FakeDb.AutoFixture;
-  using Sitecore.Foundation.SitecoreExtensions.Services;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.SitecoreExtensions.Services;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class TrackerServiceTests

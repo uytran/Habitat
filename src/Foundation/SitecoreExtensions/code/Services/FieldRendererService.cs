@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Services
+﻿namespace xHelix.Foundation.SitecoreExtensions.Services
 {
     using System;
     using System.Collections.Generic;
@@ -28,7 +28,7 @@
             }
         }
 
-        private static Mvc.Presentation.Rendering CurrentRendering
+        private static Sitecore.Mvc.Presentation.Rendering CurrentRendering
         {
             get
             {

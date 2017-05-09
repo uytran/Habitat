@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Testing.Builders
+﻿namespace xHelix.Foundation.Testing.Builders
 {
   using System.Linq;
   using System.Reflection;

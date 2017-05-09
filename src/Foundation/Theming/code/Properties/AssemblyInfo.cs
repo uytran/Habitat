@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Sitecore.Feature.Design")]
+[assembly: AssemblyTitle("xHelix.Foundation.Theming")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Sitecore.Feature.Design")]
+[assembly: AssemblyProduct("xHelix.Foundation.Theming")]
 [assembly: AssemblyCopyright("Copyright © Sitecore 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

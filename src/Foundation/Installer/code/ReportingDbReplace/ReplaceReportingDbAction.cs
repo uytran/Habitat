@@ -1,10 +1,10 @@
-﻿namespace Sitecore.Foundation.Installer.ReportingDbReplace
+﻿namespace xHelix.Foundation.Installer.ReportingDbReplace
 {
   using System.Collections.Specialized;
   using System.Configuration;
   using System.IO;
   using Sitecore.Diagnostics;
-  using Sitecore.Foundation.Installer.XmlTransform;
+  using xHelix.Foundation.Installer.XmlTransform;
 
   public class ReplaceReportingDbAction : IPostStepAction
   {

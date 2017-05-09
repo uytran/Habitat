@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer
+﻿namespace xHelix.Foundation.Installer
 {
   using System.Collections.Specialized;
 

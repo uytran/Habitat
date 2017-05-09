@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Theming.Tests
+﻿namespace xHelix.Foundation.Theming.Tests
 {
   using System;
   using System.Collections.Generic;
@@ -7,8 +7,8 @@
   using System.Threading.Tasks;
   using FluentAssertions;
   using NSubstitute;
-  using Sitecore.Foundation.Theming.Extensions;
-  using Sitecore.Foundation.Theming.Tests.Extensions;
+  using xHelix.Foundation.Theming.Extensions;
+  using xHelix.Foundation.Theming.Tests.Extensions;
   using Sitecore.Mvc.Presentation;
   using Xunit;
   using Ploeh.AutoFixture.AutoNSubstitute;

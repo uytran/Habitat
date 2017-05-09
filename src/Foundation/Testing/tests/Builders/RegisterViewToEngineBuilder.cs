@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Testing.Builders
+﻿namespace xHelix.Foundation.Testing.Builders
 {
   using System;
   using System.Collections.Generic;
@@ -6,7 +6,7 @@
   using System.Reflection;
   using System.Web.Mvc;
   using Ploeh.AutoFixture.Kernel;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Testing.Attributes;
 
   public class RegisterViewToEngineBuilder : AttributeRelay<RegisterViewAttribute>
   {

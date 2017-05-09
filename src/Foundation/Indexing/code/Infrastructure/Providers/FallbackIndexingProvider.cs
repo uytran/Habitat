@@ -1,10 +1,10 @@
-﻿namespace Sitecore.Foundation.Indexing.Infrastructure.Providers
+﻿namespace xHelix.Foundation.Indexing.Infrastructure.Providers
 {
     using System.Collections.Generic;
     using System.Configuration.Provider;
     using Sitecore.ContentSearch.SearchTypes;
     using Sitecore.Data;
-    using Sitecore.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Models;
 
     public class FallbackSearchResultFormatter : ProviderBase, ISearchResultFormatter
     {

@@ -1,11 +1,11 @@
-namespace Sitecore.Foundation.Assets.Models
+namespace xHelix.Foundation.Assets.Models
 {
   using Sitecore.Caching;
   using Sitecore.Data;
 
   internal class AssetRequirementCache : CustomCache
   {
-    public AssetRequirementCache(long maxSize) : base("Sitecore.Foundation.AssetRequirements", maxSize)
+    public AssetRequirementCache(long maxSize) : base("xHelix.Foundation.AssetRequirements", maxSize)
     {
     }
 

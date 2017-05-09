@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.Tests
+﻿namespace xHelix.Foundation.Installer.Tests
 {
   using System;
   using System.Collections.Specialized;
@@ -7,7 +7,7 @@
   using NSubstitute;
   using Ploeh.AutoFixture.Xunit2;
   using Sitecore.FakeDb.Security.Web;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class AccountsEnableActionTests

@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.Theming.Extensions.Controls
+﻿namespace xHelix.Foundation.Theming.Extensions.Controls
 {
   using System;
   using System.IO;
   using System.Web.UI;
-  using Sitecore.Foundation.SitecoreExtensions.Controls;
+  using xHelix.Foundation.SitecoreExtensions.Controls;
   using Sitecore.Web.UI.WebControls;
 
   public class BackgroundRendering : IDisposable

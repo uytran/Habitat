@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Web.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Sitecore.Foundation.DependencyInjection
+namespace xHelix.Foundation.DependencyInjection
 {
     using System.IO;
     using Sitecore.Diagnostics;

@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Multisite.Providers
+﻿namespace xHelix.Foundation.Multisite.Providers
 {
   using System.Collections.Generic;
   using Sitecore.Data.Items;

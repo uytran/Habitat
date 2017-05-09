@@ -1,6 +1,6 @@
 [
     {
-        "outputFileName": "scripts/Sitecore.Foundation.Frameworks.js",
+        "outputFileName": "scripts/xHelix.Foundation.Frameworks.js",
         "inputFiles": [
             "bower_components/modernizr/modernizr.js",
             "bower_components/jquery/dist/jquery.js",
@@ -12,7 +12,7 @@
         "sourceMap": true
     },
     {
-        "outputFileName": "scripts/Sitecore.Foundation.Theming.js",
+        "outputFileName": "scripts/xHelix.Foundation.Theming.js",
         "inputFiles": [
             "bower_components/shufflejs/dist/jquery.shuffle.js",
             "bower_components/wow/dist/wow.js",

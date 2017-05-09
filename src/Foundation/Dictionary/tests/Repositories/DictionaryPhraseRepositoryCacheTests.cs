@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Dictionary.Tests.Repositories
+﻿namespace xHelix.Foundation.Dictionary.Tests.Repositories
 {
   using System;
   using System.Web;
@@ -7,8 +7,8 @@
   using Sitecore.FakeDb;
   using Sitecore.FakeDb.AutoFixture;
   using Sitecore.FakeDb.Sites;
-  using Sitecore.Foundation.Dictionary.Repositories;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Dictionary.Repositories;
+  using xHelix.Foundation.Testing.Attributes;
   using Sitecore.Sites;
   using Xunit;
 

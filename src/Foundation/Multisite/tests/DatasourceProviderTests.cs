@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Sitecore.Foundation.Multisite.Tests
+namespace xHelix.Foundation.Multisite.Tests
 {
   using System.Linq;
   using System.Text;
@@ -12,8 +12,8 @@ namespace Sitecore.Foundation.Multisite.Tests
   using Sitecore.Data;
   using Sitecore.Data.Items;
   using Sitecore.FakeDb;
-  using Sitecore.Foundation.Multisite.Providers;
-  using Sitecore.Foundation.Multisite.Tests.Extensions;
+  using xHelix.Foundation.Multisite.Providers;
+  using xHelix.Foundation.Multisite.Tests.Extensions;
   using Xunit;
 
   public class DatasourceProviderTests

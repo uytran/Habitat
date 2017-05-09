@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Repositories
+﻿namespace xHelix.Foundation.SitecoreExtensions.Repositories
 {
     using System;
     using System.Linq;
     using Sitecore.Diagnostics;
-    using Sitecore.Foundation.DependencyInjection;
+    using xHelix.Foundation.DependencyInjection;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Reflection;
 

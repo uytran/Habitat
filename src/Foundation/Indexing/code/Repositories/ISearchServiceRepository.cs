@@ -1,7 +1,7 @@
-﻿namespace Sitecore.Foundation.Indexing.Repositories
+﻿namespace xHelix.Foundation.Indexing.Repositories
 {
-    using Sitecore.Foundation.Indexing.Models;
-    using Sitecore.Foundation.Indexing.Services;
+    using xHelix.Foundation.Indexing.Models;
+    using xHelix.Foundation.Indexing.Services;
 
     public interface ISearchServiceRepository
     {

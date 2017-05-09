@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Services
+﻿namespace xHelix.Foundation.SitecoreExtensions.Services
 {
     using Sitecore.Analytics;
     using Sitecore.Analytics.Data.Items;
@@ -7,7 +7,8 @@
     using Sitecore.Data;
     using Sitecore.Diagnostics;
     using Sitecore.Exceptions;
-    using Sitecore.Foundation.DependencyInjection;
+    using xHelix.Foundation.DependencyInjection;
+    using Sitecore;
 
     [Service(typeof(ITrackerService))]
     public class TrackerService : ITrackerService

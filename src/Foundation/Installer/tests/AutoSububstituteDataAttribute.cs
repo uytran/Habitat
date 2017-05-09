@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.Tests
+﻿namespace xHelix.Foundation.Installer.Tests
 {
   using Ploeh.AutoFixture.AutoNSubstitute;
   using Ploeh.AutoFixture.Xunit2;

@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Installer.Tests
+﻿namespace xHelix.Foundation.Installer.Tests
 {
   using System.Diagnostics;
   using FluentAssertions;
@@ -6,7 +6,7 @@
   using log4net.Config;
   using log4net.spi;
   using Ploeh.AutoFixture.Xunit2;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Testing.Attributes;
   using Xunit;
 
   public class ProcessRunnerTests

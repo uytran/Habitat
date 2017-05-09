@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sitecore.Foundation.Dictionary.Models
+namespace xHelix.Foundation.Dictionary.Models
 {
   using Sitecore.Data;
   using Sitecore.Data.Items;

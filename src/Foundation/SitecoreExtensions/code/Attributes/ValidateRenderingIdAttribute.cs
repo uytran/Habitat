@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Attributes
+﻿namespace xHelix.Foundation.SitecoreExtensions.Attributes
 {
   using System;
   using System.Linq;

@@ -1,10 +1,10 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Controls
+﻿namespace xHelix.Foundation.SitecoreExtensions.Controls
 {
   using System;
   using System.IO;
   using System.Web.UI;
   using Sitecore.Web.UI.WebControls;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
 
   /// <summary>
   ///   Edit frame class.

@@ -6,7 +6,7 @@
 
       <Stylesheet Src="FormBuilder.css" DeviceDependant="true"/>
 
-      <CodeBeside Type="Sitecore.Foundation.Forms.ActionEditors.OutcomeEditor,Sitecore.Foundation.Forms"/>
+      <CodeBeside Type="xHelix.Foundation.Forms.ActionEditors.OutcomeEditor,xHelix.Foundation.Forms"/>
 
       <DataContext ID="ItemDataContext" DataViewName="Master" Database="master" ShowRoot="true" Root="{062A1E69-0BF6-4D6D-AC4F-C11D0F7DC1E1}" />
 

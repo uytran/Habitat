@@ -1,7 +1,7 @@
-﻿using Sitecore.Foundation.Dictionary.Models;
+﻿using xHelix.Foundation.Dictionary.Models;
 using Sitecore.Sites;
 
-namespace Sitecore.Foundation.Dictionary.Repositories
+namespace xHelix.Foundation.Dictionary.Repositories
 {
   public interface IDictionaryRepository
   {

@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data.Items;
 
-namespace Sitecore.Foundation.Dictionary.Repositories
+namespace xHelix.Foundation.Dictionary.Repositories
 {
   public interface IDictionaryPhraseRepository
   {

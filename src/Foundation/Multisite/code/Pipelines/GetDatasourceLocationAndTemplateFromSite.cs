@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.Multisite.Pipelines
+﻿namespace xHelix.Foundation.Multisite.Pipelines
 {
   using System.Linq;
   using Sitecore.Data.Items;
   using Sitecore.Diagnostics;
-  using Sitecore.Foundation.Multisite.Providers;
+  using xHelix.Foundation.Multisite.Providers;
   using Sitecore.Pipelines.GetRenderingDatasource;
 
   public class GetDatasourceLocationAndTemplateFromSite

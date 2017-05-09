@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.DependencyInjection.Infrastructure
+﻿namespace xHelix.Foundation.DependencyInjection.Infrastructure
 {
     using Microsoft.Extensions.DependencyInjection;
     using Sitecore.DependencyInjection;

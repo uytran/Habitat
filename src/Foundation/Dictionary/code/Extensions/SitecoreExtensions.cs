@@ -1,8 +1,8 @@
-﻿namespace Sitecore.Foundation.Dictionary.Extensions
+﻿namespace xHelix.Foundation.Dictionary.Extensions
 {
   using System.Web;
-  using Sitecore.Foundation.Dictionary.Repositories;
-  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.Dictionary.Repositories;
+  using xHelix.Foundation.SitecoreExtensions.Extensions;
   using Sitecore.Mvc.Helpers;
 
   public static class SitecoreExtensions

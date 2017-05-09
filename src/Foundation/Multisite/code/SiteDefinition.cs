@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Multisite
+﻿namespace xHelix.Foundation.Multisite
 {
   using Sitecore.Data.Items;
   using Sitecore.Web;

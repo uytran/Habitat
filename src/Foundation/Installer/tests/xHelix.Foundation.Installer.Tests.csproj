@@ -5,16 +5,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3ECFDA25-B8AE-43F5-9CA9-4AFDF1F96901}</ProjectGuid>
+    <ProjectGuid>{EDD5B894-28C3-4FB5-8A85-AFD9C2FD823D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Foundation.Indexing.Tests</RootNamespace>
-    <AssemblyName>Sitecore.Foundation.Indexing.Tests</AssemblyName>
+    <RootNamespace>xHelix.Foundation.Installer.Tests</RootNamespace>
+    <AssemblyName>xHelix.Foundation.Installer.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,12 +62,13 @@
       <HintPath>..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
+    <Reference Include="Microsoft.Web.Administration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Moq, Version=4.5.30.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Moq.4.5.30\lib\net45\Moq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSubstitute, Version=1.10.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="netDumbster, Version=1.4.0.0, Culture=neutral, PublicKeyToken=4a1d8c974aa1bd1c, processorArchitecture=MSIL">
@@ -76,10 +77,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="NSubstitute, Version=1.10.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Ploeh.AutoFixture, Version=3.50.2.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
@@ -92,18 +89,6 @@
     </Reference>
     <Reference Include="Ploeh.AutoFixture.Xunit2, Version=3.50.2.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\AutoFixture.Xunit2.3.50.2\lib\net45\Ploeh.AutoFixture.Xunit2.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.Abstractions, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Abstractions.NoReferences.8.2.161115\lib\NET452\Sitecore.Abstractions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.ContentSearch.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.ContentSearch.Linq.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.FakeDb, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
@@ -122,10 +107,6 @@
       <HintPath>..\..\..\..\packages\Sitecore.Logging.NoReferences.8.2.161115\lib\NET452\Sitecore.Logging.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Mvc, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Mvc.NoReferences.8.2.161115\lib\NET452\Sitecore.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Sitecore.Nexus, Version=1.0.4425.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Nexus.NoReferences.8.2.161115\lib\NET452\Sitecore.Nexus.dll</HintPath>
       <Private>True</Private>
@@ -138,7 +119,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -191,29 +172,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountsEnableActionTests.cs" />
+    <Compile Include="AutoSububstituteDataAttribute.cs" />
+    <Compile Include="MongoRestore\MongoRestoreProcessorTests.cs" />
+    <Compile Include="MongoRestore\MongoRestoreServiceTests.cs" />
+    <Compile Include="PostStepTests.cs" />
+    <Compile Include="XmlTransformActionTests.cs" />
+    <Compile Include="ProcessRunnerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\SearchServiceRepositoryTests.cs" />
-    <Compile Include="Services\SearchServiceTests.cs" />
+    <Compile Include="TransformsProviderTests.cs" />
+    <Compile Include="XdtTransformEngineTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\Sitecore.Foundation.SitecoreExtensions.csproj">
-      <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Sitecore.Foundation.SitecoreExtensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Testing\tests\Sitecore.Foundation.Testing.csproj">
+    <ProjectReference Include="..\..\Testing\tests\xHelix.Foundation.Testing.csproj">
       <Project>{7cc3d72b-4518-4b78-be48-630a263c0f5b}</Project>
-      <Name>Sitecore.Foundation.Testing</Name>
+      <Name>xHelix.Foundation.Testing</Name>
     </ProjectReference>
-    <ProjectReference Include="..\code\Sitecore.Foundation.Indexing.csproj">
-      <Project>{80213F24-577F-4F0B-A3B8-62485EA4D2F3}</Project>
-      <Name>Sitecore.Foundation.Indexing</Name>
+    <ProjectReference Include="..\code\xHelix.Foundation.Installer.csproj">
+      <Project>{622EBD86-43A5-4857-965C-1724F714012A}</Project>
+      <Name>xHelix.Foundation.Installer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

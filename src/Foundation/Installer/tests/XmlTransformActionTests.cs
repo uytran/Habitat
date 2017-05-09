@@ -1,9 +1,9 @@
-﻿namespace Sitecore.Foundation.Installer.Tests
+﻿namespace xHelix.Foundation.Installer.Tests
 {
   using System.Collections.Generic;
   using System.Collections.Specialized;
   using NSubstitute;
-  using Sitecore.Foundation.Installer.XmlTransform;
+  using xHelix.Foundation.Installer.XmlTransform;
   using Xunit;
 
   public class XmlTransformActionTests

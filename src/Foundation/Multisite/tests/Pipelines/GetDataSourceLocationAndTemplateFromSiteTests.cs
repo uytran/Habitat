@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Multisite.Tests.Pipelines
+﻿namespace xHelix.Foundation.Multisite.Tests.Pipelines
 {
   using System;
   using System.Collections.Generic;
@@ -12,9 +12,9 @@
   using Sitecore.Data;
   using Sitecore.Data.Items;
   using Sitecore.FakeDb;
-  using Sitecore.Foundation.Multisite.Pipelines;
-  using Sitecore.Foundation.Multisite.Providers;
-  using Sitecore.Foundation.Multisite.Tests.Extensions;
+  using xHelix.Foundation.Multisite.Pipelines;
+  using xHelix.Foundation.Multisite.Providers;
+  using xHelix.Foundation.Multisite.Tests.Extensions;
   using Sitecore.Pipelines.GetRenderingDatasource;
   using Xunit;
 

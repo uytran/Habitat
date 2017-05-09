@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.Dictionary
+﻿namespace xHelix.Foundation.Dictionary
 {
   using Sitecore.Data;
 

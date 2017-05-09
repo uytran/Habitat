@@ -1,4 +1,4 @@
-namespace Sitecore.Foundation.Assets.Models
+namespace xHelix.Foundation.Assets.Models
 {
   public enum ScriptLocation
   {

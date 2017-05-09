@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.LocalDatasource.Tests
+﻿namespace xHelix.Foundation.LocalDatasource.Tests
 {
   using System.Linq;
   using FluentAssertions;
@@ -7,8 +7,8 @@
   using Sitecore.Data.Items;
   using Sitecore.FakeDb;
   using Sitecore.FakeDb.AutoFixture;
-  using Sitecore.Foundation.LocalDatasource.Infrastructure.Pipelines;
-  using Sitecore.Foundation.Testing.Attributes;
+  using xHelix.Foundation.LocalDatasource.Infrastructure.Pipelines;
+  using xHelix.Foundation.Testing.Attributes;
   using Sitecore.Pipelines.GetRenderingDatasource;
   using Xunit;
 

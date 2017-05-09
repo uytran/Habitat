@@ -1,8 +1,8 @@
-﻿namespace Sitecore.Foundation.Multisite.Tests
+﻿namespace xHelix.Foundation.Multisite.Tests
 {
   using FluentAssertions;
-  using Sitecore.Foundation.Multisite.Providers;
-  using Sitecore.Foundation.Multisite.Tests.Extensions;
+  using xHelix.Foundation.Multisite.Providers;
+  using xHelix.Foundation.Multisite.Tests.Extensions;
   using Xunit;
 
   public class DatasourceConfigurationServiceTests

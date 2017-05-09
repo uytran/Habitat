@@ -1,4 +1,4 @@
-﻿namespace Sitecore.Foundation.SitecoreExtensions.Extensions
+﻿namespace xHelix.Foundation.SitecoreExtensions.Extensions
 {
     using System;
     using System.Collections.Generic;
@@ -9,10 +9,11 @@
     using Sitecore.Data.Items;
     using Sitecore.Data.Managers;
     using Sitecore.Diagnostics;
-    using Sitecore.Foundation.SitecoreExtensions.Services;
+    using xHelix.Foundation.SitecoreExtensions.Services;
     using Sitecore.Links;
     using Sitecore.Resources.Media;
     using Sitecore.Xml.Xsl;
+    using Sitecore;
 
     public static class ItemExtensions
     {
