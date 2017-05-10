@@ -133,6 +133,8 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Users.DataProvider.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Users.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.Users.config.example" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Baseline.config" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Baseline.Settings.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
