@@ -3,7 +3,7 @@
     using System;
     using System.Linq;
     using Sitecore.Diagnostics;
-    using xHelix.Foundation.DependencyInjection;
+    using xHelix.Foundation.Baseline;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Reflection;
 

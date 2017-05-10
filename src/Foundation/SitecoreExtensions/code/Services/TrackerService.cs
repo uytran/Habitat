@@ -7,7 +7,7 @@
     using Sitecore.Data;
     using Sitecore.Diagnostics;
     using Sitecore.Exceptions;
-    using xHelix.Foundation.DependencyInjection;
+    using xHelix.Foundation.Baseline;
     using Sitecore;
 
     [Service(typeof(ITrackerService))]

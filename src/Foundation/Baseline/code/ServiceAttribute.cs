@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace xHelix.Foundation.DependencyInjection
+namespace xHelix.Foundation.Baseline
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class ServiceAttribute : Attribute

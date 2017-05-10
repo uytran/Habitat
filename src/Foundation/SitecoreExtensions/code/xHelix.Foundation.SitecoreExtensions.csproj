@@ -191,9 +191,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DependencyInjection\code\xHelix.Foundation.DependencyInjection.csproj">
-      <Project>{366148B7-2392-4F42-80D6-786B7A3682AE}</Project>
-      <Name>xHelix.Foundation.DependencyInjection</Name>
+    <ProjectReference Include="..\..\Baseline\code\xHelix.Foundation.Baseline.csproj">
+      <Project>{47b7d3f2-28ba-4f24-a6a8-ec804932209b}</Project>
+      <Name>xHelix.Foundation.Baseline</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
