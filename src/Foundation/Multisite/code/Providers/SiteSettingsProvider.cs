@@ -4,7 +4,7 @@
   using Sitecore.Configuration;
   using Sitecore.Data.Items;
   using xHelix.Foundation.Multisite.Providers;
-  using xHelix.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.Baseline.Extensions;
   using Sitecore.Web;
 
   public class SiteSettingsProvider : ISiteSettingsProvider

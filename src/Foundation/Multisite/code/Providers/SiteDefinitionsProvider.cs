@@ -7,7 +7,7 @@
     using Sitecore;
     using Sitecore.Data;
     using Sitecore.Data.Items;
-    using xHelix.Foundation.SitecoreExtensions.Extensions;
+    using xHelix.Foundation.Baseline.Extensions;
     using Sitecore.Links;
     using Sitecore.Sites;
     using Sitecore.Web;

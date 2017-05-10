@@ -110,7 +110,12 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Baseline\code\xHelix.Foundation.Baseline.csproj">
+      <Project>{47b7d3f2-28ba-4f24-a6a8-ec804932209b}</Project>
+      <Name>xHelix.Foundation.Baseline</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\SitecoreExtensions.cs" />
     <Compile Include="Models\Dictionary.cs" />
@@ -121,12 +126,6 @@
     <Compile Include="Repositories\IDictionaryRepository.cs" />
     <Compile Include="Services\CreateDictionaryEntryService.cs" />
     <Compile Include="Templates.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\xHelix.Foundation.SitecoreExtensions.csproj">
-      <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>xHelix.Foundation.SitecoreExtensions</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

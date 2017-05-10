@@ -2,7 +2,7 @@
 {
   using System.Web;
   using xHelix.Foundation.Dictionary.Repositories;
-  using xHelix.Foundation.SitecoreExtensions.Extensions;
+  using xHelix.Foundation.Baseline.Extensions;
   using Sitecore.Mvc.Helpers;
 
   public static class SitecoreExtensions

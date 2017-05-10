@@ -120,12 +120,6 @@
     <Compile Include="Services\RenderAssetsService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\xHelix.Foundation.SitecoreExtensions.csproj">
-      <Project>{B535703F-8D07-4F23-A533-2974BB4CC7B1}</Project>
-      <Name>xHelix.Foundation.SitecoreExtensions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Foundation.Assets.config" />
     <Content Include="App_Config\Include\Foundation\Foundation.Assets.Serialization.config">
       <SubType>Designer</SubType>
@@ -139,6 +133,12 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Baseline\code\xHelix.Foundation.Baseline.csproj">
+      <Project>{47b7d3f2-28ba-4f24-a6a8-ec804932209b}</Project>
+      <Name>xHelix.Foundation.Baseline</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

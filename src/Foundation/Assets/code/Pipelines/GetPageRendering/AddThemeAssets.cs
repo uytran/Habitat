@@ -7,7 +7,7 @@
     using Sitecore.Data.Items;
     using xHelix.Foundation.Assets.Models;
     using xHelix.Foundation.Assets.Repositories;
-    using xHelix.Foundation.SitecoreExtensions.Extensions;
+    using xHelix.Foundation.Baseline.Extensions;
     using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
     using Sitecore.Mvc.Presentation;
 
