@@ -1,4 +1,4 @@
-﻿namespace xHelix.Foundation.Assets
+﻿namespace xHelix.Foundation.Baseline
 {
     using Sitecore.Data;
 

@@ -1,11 +1,11 @@
-﻿namespace xHelix.Foundation.Assets.Pipelines.GetPageRendering
+﻿namespace xHelix.Foundation.Baseline.Pipelines.GetPageRendering
 {
     using System.Linq;
     using Sitecore;
     using Sitecore.Data;
     using Sitecore.Data.Items;
-    using xHelix.Foundation.Assets.Models;
-    using xHelix.Foundation.Assets.Repositories;
+    using xHelix.Foundation.Baseline.Models;
+    using xHelix.Foundation.Baseline.Repositories;
     using xHelix.Foundation.Baseline.Extensions;
     using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
     using Sitecore.Mvc.Presentation;

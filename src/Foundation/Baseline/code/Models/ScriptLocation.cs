@@ -1,4 +1,4 @@
-namespace xHelix.Foundation.Assets.Models
+namespace xHelix.Foundation.Baseline.Models
 {
   public enum ScriptLocation
   {

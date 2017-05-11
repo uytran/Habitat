@@ -1,12 +1,12 @@
-﻿namespace xHelix.Foundation.Assets.Services
+﻿namespace xHelix.Foundation.Baseline.Services
 {
     using System;
     using System.Linq;
     using System.Text;
     using System.Web;
     using Sitecore;
-    using xHelix.Foundation.Assets.Models;
-    using xHelix.Foundation.Assets.Repositories;
+    using xHelix.Foundation.Baseline.Models;
+    using xHelix.Foundation.Baseline.Repositories;
 
     /// <summary>
     ///     A service which helps add the required JavaScript at the end of a page, and CSS at the top of a page.

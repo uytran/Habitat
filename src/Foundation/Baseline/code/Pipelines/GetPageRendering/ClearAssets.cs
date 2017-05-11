@@ -1,6 +1,6 @@
-﻿namespace xHelix.Foundation.Assets.Pipelines.GetPageRendering
+﻿namespace xHelix.Foundation.Baseline.Pipelines.GetPageRendering
 {
-    using xHelix.Foundation.Assets.Repositories;
+    using xHelix.Foundation.Baseline.Repositories;
     using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 
     public class ClearAssets : GetPageRenderingProcessor

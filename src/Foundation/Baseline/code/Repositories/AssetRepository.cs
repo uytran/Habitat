@@ -1,4 +1,4 @@
-﻿namespace xHelix.Foundation.Assets.Repositories
+﻿namespace xHelix.Foundation.Baseline.Repositories
 {
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
     using System.Xml;
     using Sitecore.Data;
     using Sitecore.Diagnostics;
-    using xHelix.Foundation.Assets.Models;
+    using xHelix.Foundation.Baseline.Models;
     using Sitecore.Mvc.Presentation;
     using Sitecore.Xml;
 

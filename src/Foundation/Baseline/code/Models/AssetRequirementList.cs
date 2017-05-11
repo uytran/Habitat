@@ -1,4 +1,4 @@
-namespace xHelix.Foundation.Assets.Models
+namespace xHelix.Foundation.Baseline.Models
 {
   using System.Collections;
   using System.Collections.Generic;
