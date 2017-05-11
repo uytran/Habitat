@@ -308,7 +308,7 @@
     <Compile Include="Builders\RegisterViewToEngineBuilder.cs" />
     <Compile Include="Commands\AddContentDbItemsCommand.cs" />
     <Compile Include="Commands\GenericCommand.cs" />
-    <Compile Include="Constants.cs" />
+    <Compile Include="BusinessConstants.cs" />
     <Compile Include="Controls\EditFrameRendering.cs" />
     <Compile Include="Extensions\FieldExtensions.cs" />
     <Compile Include="Extensions\HTMLHelperExtensions.cs" />

@@ -26,7 +26,7 @@
 
     public static bool GetUseStaticPlaceholderNames([Sitecore.NotNull] this Rendering rendering)
     {
-      return Sitecore.MainUtil.GetBool(rendering.Parameters[Constants.DynamicPlaceholdersLayoutParameters.UseStaticPlaceholderNames], false);
+      return Sitecore.MainUtil.GetBool(rendering.Parameters[BusinessConstants.DynamicPlaceholdersLayoutParameters.UseStaticPlaceholderNames], false);
     }
   }
 }
