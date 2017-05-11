@@ -8,12 +8,12 @@
   using Sitecore.Data.Items;
   using xHelix.Foundation.Dictionary.Extensions;
   using xHelix.Foundation.Dictionary.Repositories;
-  using xHelix.Foundation.Testing;
-  using xHelix.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Baseline;
+  using xHelix.Foundation.Baseline.Attributes;
   using Sitecore.Mvc.Helpers;
   using Xunit;
 
-  public class SitecoreExtensionsTests
+    public class SitecoreExtensionsTests
   {
     private IDictionaryPhraseRepository dictionaryPhraseRepository;
 

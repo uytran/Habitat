@@ -4,7 +4,7 @@
   using System.Web;
   using System.Web.Mvc;
   using NSubstitute;
-  using xHelix.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Baseline.Attributes;
 
   public class AutoDbMvcDataAttribute : AutoDbDataAttribute
   {

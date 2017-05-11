@@ -9,7 +9,7 @@
   using Sitecore.FakeDb.AutoFixture;
   using xHelix.Foundation.Dictionary.Models;
   using xHelix.Foundation.Dictionary.Services;
-  using xHelix.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Baseline.Attributes;
   using Xunit;
 
   public class CreateDictionaryEntryServiceTests

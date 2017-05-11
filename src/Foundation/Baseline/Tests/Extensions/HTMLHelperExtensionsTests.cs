@@ -15,7 +15,7 @@ namespace xHelix.Foundation.Baseline.Tests.HtmlHelper
   using Sitecore.Extensions.XElementExtensions;
   using xHelix.Foundation.Baseline.Extensions;
   using xHelix.Foundation.Baseline.Repositories;
-  using xHelix.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Baseline.Attributes;
   using Sitecore.Mvc;
   using Sitecore.Mvc.Common;
   using Sitecore.Mvc.Extensions;

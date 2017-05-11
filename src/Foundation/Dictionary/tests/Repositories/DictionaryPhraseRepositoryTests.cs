@@ -13,7 +13,7 @@
     using xHelix.Foundation.Dictionary.Models;
     using xHelix.Foundation.Dictionary.Repositories;
     using xHelix.Foundation.Dictionary.Tests.Services;
-    using xHelix.Foundation.Testing.Attributes;
+    using xHelix.Foundation.Baseline.Attributes;
     using Xunit;
 
     public class DictionaryPhraseRepositoryTests

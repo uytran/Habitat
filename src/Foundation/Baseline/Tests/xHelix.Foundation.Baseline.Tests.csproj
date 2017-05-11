@@ -232,10 +232,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Testing\tests\xHelix.Foundation.Testing.csproj">
-      <Project>{7cc3d72b-4518-4b78-be48-630a263c0f5b}</Project>
-      <Name>xHelix.Foundation.Testing</Name>
-    </ProjectReference>
     <ProjectReference Include="..\code\xHelix.Foundation.Baseline.csproj">
       <Project>{B535703F-8D07-4F23-A533-2974BB4CC7B1}</Project>
       <Name>xHelix.Foundation.Baseline</Name>

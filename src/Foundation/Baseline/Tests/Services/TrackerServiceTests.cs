@@ -14,7 +14,7 @@
   using Sitecore.Data.Items;
   using Sitecore.FakeDb.AutoFixture;
   using xHelix.Foundation.Baseline.Services;
-  using xHelix.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Baseline.Attributes;
   using Xunit;
 
   public class TrackerServiceTests

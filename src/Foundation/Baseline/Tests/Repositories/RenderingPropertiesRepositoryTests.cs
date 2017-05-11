@@ -2,7 +2,7 @@
 {
     using FluentAssertions;
     using xHelix.Foundation.Baseline.Repositories;
-    using xHelix.Foundation.Testing.Attributes;
+    using xHelix.Foundation.Baseline.Attributes;
     using Sitecore.Mvc.Common;
     using Sitecore.Mvc.Presentation;
     using Xunit;

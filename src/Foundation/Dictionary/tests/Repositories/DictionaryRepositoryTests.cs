@@ -7,11 +7,12 @@
   using Sitecore.FakeDb.AutoFixture;
   using Sitecore.FakeDb.Sites;
   using xHelix.Foundation.Dictionary.Repositories;
-  using xHelix.Foundation.Testing.Attributes;
+  using xHelix.Foundation.Baseline.Attributes;
   using Sitecore.Sites;
   using Xunit;
+    using xHelix.Foundation.Baseline.Attributes;
 
-  public class DictionaryRepositoryTests
+    public class DictionaryRepositoryTests
   {
     [Theory]
     [AutoDbData]

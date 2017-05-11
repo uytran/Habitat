@@ -10,7 +10,7 @@
     using Sitecore.FakeDb.AutoFixture;
     using Sitecore.FakeDb.Resources.Media;
     using xHelix.Foundation.Baseline.Extensions;
-    using xHelix.Foundation.Testing.Attributes;
+    using xHelix.Foundation.Baseline.Attributes;
     using Sitecore.Resources.Media;
     using Xunit;
 
